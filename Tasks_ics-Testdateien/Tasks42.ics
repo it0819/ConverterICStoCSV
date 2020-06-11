@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+PRODID:Open-Xchange
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTODO
+DTSTAMP:20200516T011102Z
+SUMMARY:Chk for inital conditions on SWE
+DESCRIPTION:Perform investigation into given BOK.
+CLASS:PUBLIC
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:42
+UID:dcdc20cb-0321-4648-a916-bda208d01ab6
+CREATED:20200513T162334Z
+LAST-MODIFIED:20200513T162335Z
+END:VTODO
+BEGIN:VTODO
+DTSTAMP:20200516T011102Z
+SUMMARY:MoM regarding epic for vcal to line conversion program development
+DESCRIPTION:Agenda:\n- supported OS\n- selected programming languages\n- needed documentation\n- TBD\n\n#\n#TheEnd
+DTSTART:20191121T223000Z
+DUE:20200531T220000Z
+CLASS:PUBLIC
+STATUS:IN-PROCESS
+PERCENT-COMPLETE:42
+PRIORITY:5
+UID:8f59829a-762b-4173-b921-e6079e9da650
+CREATED:20191121T044159Z
+LAST-MODIFIED:20200512T115303Z
+BEGIN:VALARM
+TRIGGER;VALUE=DATE-TIME:20200530T220000Z
+ACTION:DISPLAY
+DESCRIPTION:Agenda:\n- supported OS\n- selected programming languages\n- needed documentation\n- TBD\n\n#\n#TheEnd
+END:VALARM
+END:VTODO
+BEGIN:VTODO
+DTSTAMP:20200516T011102Z
+SUMMARY:iso check procedure for gentoo linux
+DESCRIPTION:References so far given:\n\n- https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Installation#Verifying_and_validating\n- https://www.gentoo.org/downloads/signatures/\n- https://forums.gentoo.org/viewtopic-t-1033080-start-0.html\n- https://www.gnupg.org/gph/en/manual/x334.html\n\n#\n#TheEnd
+DTSTART;VALUE=DATE:20200517
+DUE;VALUE=DATE:20200607
+CLASS:PUBLIC
+STATUS:NEEDS-ACTION
+PERCENT-COMPLETE:42
+UID:1feebdca-aeb8-4aa9-aa34-57e7416d0acf
+CREATED:20180406T043113Z
+LAST-MODIFIED:20200512T115024Z
+BEGIN:VALAR9
+TRIGGER;VALUE=DATE-TIME:20200515T040000Z
+ACTION:DISPLAY
+DESCRIPTION:References so far given:\n\n- https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Installation#Verifying_and_validating\n- https://www.gentoo.org/downloads/signatures/\n- https://forums.gentoo.org/viewtopic-t-1033080-start-0.html\n- https://www.gnupg.org/gph/en/manual/x334.html\n\n#\n#TheEnd
+END:VALARM
+END:VTODO
+END:VCALENDAR
