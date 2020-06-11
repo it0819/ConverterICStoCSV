@@ -38,4 +38,10 @@ The writeLogfile () function checks whether the logfile already exists. If not, 
 Then the function writeLogfile () writes the contents with the parameter "notiz" into the logfile file and closes this logfile.
 
 The writelogfile() function uses a currentDateTime() function.
-	
+
+----------------------------	
+# Muster Ergebnis
+The file "Muster_Ergebnisdatei.csv" is an example of the Excel file created by the main program.
+This example file was created based on the requirements of June 9th, 2020.
+The possible changes to the sample file will be discussed on June 12th, 2020. The development team 
+needs additional time to implement the changes.
