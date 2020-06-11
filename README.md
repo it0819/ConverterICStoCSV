@@ -10,27 +10,19 @@ The development team needs additional time to program these changes.
 -------
 Pseudocode of function writeLogfile:
 
-function writeLogfile (note: String, icsName: String){
-Beginning of the function logfileWrite
-
+	function writeLogfile (note: String, icsName: String){
+	Beginning of the function logfileWrite
 	string logName = icsName + "_logfile.log";
-
 	If (Does the file named logName exist?) {
-		
 		yes: open the files with the name logName;
-
 		no: create the file with the name logName;
 		    and open this file;}
-
 	write the variable notiz into the file named logName;
-
 	close the file named logName; 
+	end of function writeLogfile;
+	}
 
-End of function writeLogfile;
-}
---------
-
-Comment:
+# Comment:
 
 The writeLogfile () function is to be called in the main program if a specific action to be noted in the log file.
 
@@ -46,7 +38,4 @@ The writeLogfile () function checks whether the logfile already exists. If not, 
 Then the function writeLogfile () writes the contents with the parameter "notiz" into the logfile file and closes this logfile.
 
 The writelogfile() function uses a currentDateTime() function.
-
-# End Fuktion Logfile
----------------------------------------------------------------------------------------------------------------------------
 	
