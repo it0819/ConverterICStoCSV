@@ -51,8 +51,6 @@ int main(int argc, char* argv[]) {
 	string file = argv[1];
 	Datenmanager dt;
 	string strCsv;
-	KalenderDaten* kd;
-	bool fertig;
 
 
 	string newName = file + "_" + currentDateTime() + ".csv";
