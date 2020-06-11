@@ -7,7 +7,7 @@ Convert Files from ICS-Format to CSV-Format with a CLI C++ Program for Win / Lin
 This is the first version of the function. On June 11th, 2020 the development team received two changes. 
 The development team needs additional time to program these changes.
 
--------
+
 Pseudocode of function writeLogfile:
 
 	function writeLogfile (note: String, icsName: String){
