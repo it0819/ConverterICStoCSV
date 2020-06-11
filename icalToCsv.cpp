@@ -39,6 +39,7 @@ int main( int argc, char *argv[]){
 
 	if(MyReadFile.is_open()){
 		while (getline (MyReadFile, myText)) {
+			cout << myText << endl; //DryTest
 			size_t find = myText.find(":");
 			int pos = find;
 			if (myText.substr(0,pos).compare("BEGIN") > 1 || myText.substr(0,pos).compare("END") > 1)
