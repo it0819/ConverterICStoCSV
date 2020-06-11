@@ -1,0 +1,33 @@
+PRODID;VERSION;CALSCALE;METHOD;DTSTAMP;SUMMARY;DESCRIPTION;DTSTART;DTSTART;VALUE=DATE;DUE;DUE;VALUE=DATE;CLASS;STATUS;PERCENT-COMPLETE;PRIORITY;UID;CREATED;LAST-MODIFIED;BEGIN;TRIGGER;VALUE=DATE-TIME;ACTION;DESCRIPTION
+Open-Xchange;2;GREGORIAN;PUBLISH;20200516T011102Z;Chk for inital conditions on SWE;Perform investigation into given BOK.;;;;;PUBLIC;NEEDS-ACTION;0;;dcdc20cb-0321-4648-a916-bda208d01ab6;20200513T162334Z;20200513T162335Z;;;;
+;;;;20200516T011102Z;MoM regarding epic for vcal to line conversion program development;"Agenda:
+- supported OS
+- selected programming languages
+- needed documentation
+- TBD
+
+#
+#TheEnd";20191121T223000Z;;20200531T220000Z;;PUBLIC;IN-PROCESS;0;5;8f59829a-762b-4173-b921-e6079e9da650;20191121T044159Z;20200512T115303Z;VALARM;20200530T220000Z;DISPLAY;"Agenda:
+- supported OS
+- selected programming languages
+- needed documentation
+- TBD
+
+#
+#TheEnd"
+;;;;20200516T011102Z;iso check procedure for gentoo linux;"References so far given:
+
+- https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Installation#Verifying_and_validating
+- https://www.gento o.org/downloads/signatures/
+- https://forums.gentoo.org/viewtopic-t-1033080-start-0.html
+- https://www.gnupg.org/gph/en/manual/x334.html
+
+#
+#TheEnd";;20200517;;20200607;PUBLIC;NEEDS-ACTION;0;;1feebdca-aeb8-4aa9-aa34-57e7416d0acf;20180406T043113Z;20200512T115024Z;VALARM;20200515T040000Z;DISPLAY;"References so far given:
+
+- https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Installation#Verifying_and_validating
+- https://www.gentoo.org/downloads/signatures/\n- https://forums.gentoo.org/viewtopic-t-1033080-start-0.html
+- https://www.gnupg.org/gph/en/manual/x334.html
+
+#
+#TheEnd"
