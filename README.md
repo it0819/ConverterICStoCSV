@@ -1,4 +1,7 @@
-# ConverterICStoCSV_it0819
+# Work in Progress
+This is a joint project with a limited time frame, so use it at your own risk.
+
+# ConverterICStoCSV
 Convert Files from ICS-Format to CSV-Format with a CLI C++ Program for Win / Linux / Unix
 
 
