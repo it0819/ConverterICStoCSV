@@ -1,9 +1,17 @@
 # Work in Progress
-This is a joint project with a limited time frame, so use it at your own risk.
+This is a joint project still under development with a limited time frame, so use it at your own risk.
 
-# ConverterICStoCSV
+# Discription
 Convert Files from ICS-Format to CSV-Format with a CLI C++ Program for Win / Linux / Unix
 
+# How to
+Compile the source-code with a c++ compiler for your operating system.
+
+Put the Programm in the same folder where your ICS-File is and run the program from the CLI with an argument for the filename you want to convert.
+
+Example: c:\myfolder\ConverterICStoCSV yourfile.ics
+
+The Programm will then convert the ICS-File to CSV-File.
 
 ---------------------------------------------------------------------------------------------------------
 # Fuktion Logfile
