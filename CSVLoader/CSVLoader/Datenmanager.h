@@ -88,15 +88,39 @@ public:
 					kd[count].getAd().setDescription(subStr2);
 					valarm = false;
 				}
-			}
-			if (myText == "END:TODO") {
+
+			
+				if (myText == "END:TODO") {
 				count++;
+				}
+
+			}
+			
+			for (int i = 0; i < kd.size(); i++)
+			{
+				MyWriteFile << kd[i].getCreated() + ";";
+				MyWriteFile << kd[i].getDescription() + ";";
+				MyWriteFile << kd[i].getDtStamp() + ";";
+				MyWriteFile << kd[i].getDtStart() + ";";
+				MyWriteFile << kd[i].getDue() + ";";
+				MyWriteFile << kd[i].getKlasse() + ";";
+				MyWriteFile << kd[i].getLastModified() + ";";
+				MyWriteFile << kd[i].getPercentComplete() + ";";
+				MyWriteFile << kd[i].getPriority() + ";";
+				MyWriteFile << kd[i].getStatus() + ";";
+				MyWriteFile << kd[i].getUid() + ";";
+				MyWriteFile << kd[i].getAd().getAction() + ";";
+				MyWriteFile << kd[i].getAd().getDescription() + ";";
+				MyWriteFile << kd[i].getAd().getTrigger() + ";";
+				MyWriteFile << "\n";
+
+
 			}
 
-
-			//MyWriteFile << myText + ";";
 
 		}
+
+
 
 		MyReadFile.close();
 		MyWriteFile.close();

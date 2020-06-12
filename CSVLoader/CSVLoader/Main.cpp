@@ -39,11 +39,11 @@ int main() {
 using namespace std;
 
 const string currentDateTime() {
-	time_t     now = time(0);
-	struct tm  tstruct;
+	//time_t     now = time(0);
+	//struct tm  tstruct;
 	char       buf[80];
 	//tstruct = *localtime(&now);
-	strftime(buf, sizeof(buf), "%Y-%m-%d.%X", &tstruct);
+	//strftime(buf, sizeof(buf), "%Y-%m-%d.%X", &tstruct);
 	return buf;
 }
 
@@ -53,7 +53,7 @@ int main(int argc, char* argv[]) {
 	string strCsv;
 
 
-	string newName = file + "_" + currentDateTime() + ".csv";
+	string newName = file + "_" + "TimeStampXY" + ".csv";
 	dt.eintragen(file, newName);
 
 
