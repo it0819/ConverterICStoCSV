@@ -96,7 +96,7 @@ public:
 
 			}
 			
-			for (int i = 0; i < kd.size(); i++)
+			for (int i = 0; i < sizeof(kd); i++)
 			{
 				MyWriteFile << kd[i].getCreated() + ";";
 				MyWriteFile << kd[i].getDescription() + ";";
